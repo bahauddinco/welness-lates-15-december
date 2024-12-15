@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './styles/theme.css';
+
+/* Custom utility classes */
+@layer components {
+  .bg-card {
+    @apply bg-gray-800/30 backdrop-blur-lg rounded-2xl border border-gray-700;
+  }
+  
+  .bg-accent {
+    @apply bg-[#ff6b00]/10;
+  }
+  
+  .text-accent {
+    @apply text-[#ff6b00];
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-[#ff6b00] text-white rounded-lg font-semibold 
+           flex items-center gap-2 transform hover:scale-105 transition-all duration-300;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 border border-[#ff6b00] text-[#ff6b00] rounded-lg font-semibold 
+           hover:bg-[#ff6b00]/10 transition-all duration-300;
+  }
+}

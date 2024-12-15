@@ -1,0 +1,32 @@
+:root {
+  /* Primary Colors */
+  --color-primary: #ff6b00;
+  --color-primary-light: #ff8533;
+  --color-primary-dark: #cc5500;
+  
+  /* Background Colors */
+  --color-background: #0A0F1C;
+  --color-background-light: #1a1f2c;
+  --color-background-dark: #050810;
+  
+  /* Card/Container Colors */
+  --color-card: rgba(31, 41, 55, 0.3); /* bg-gray-800/30 */
+  --color-card-hover: rgba(31, 41, 55, 0.4);
+  --color-border: rgba(75, 85, 99, 0.7); /* border-gray-700 */
+  
+  /* Text Colors */
+  --color-text: #ffffff;
+  --color-text-secondary: #9ca3af; /* text-gray-400 */
+  --color-text-muted: #6b7280; /* text-gray-500 */
+  
+  /* Accent Colors */
+  --color-accent-glow: rgba(255, 107, 0, 0.2); /* bg-[#ff6b00]/20 */
+  --color-accent-surface: rgba(255, 107, 0, 0.1); /* bg-[#ff6b00]/10 */
+}
+
+/* Dark mode overrides if needed */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Add dark mode specific overrides here if needed */
+  }
+}
